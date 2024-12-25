@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            padding-bottom: 20px;
+            padding-top: 5px;
+            background-color: #212529;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav{
+            background-color: #212529;
+            gap: 15px;
+            display: flex;
+        }
+        main{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .a{
+            padding-top: 22px;
+            color: #a6a6a6;
+            font-size: 15px;
+        }
+        .a:hover{
+            color: white;
+        }
+        section{
+            background-color:#dedede42;
+            padding-top: 5%;
+            text-align: center;
+        }
+        #form{
+            background-color: #dedede17;
+            padding: 10px;
+        }
+        .input{
+            width: 35%;
+            padding: 15px;
+            border-radius:5px;
+            border: 1px solid #a6a6a6;
+        }
+        button{
+            color: white;
+            border-radius: 6px;
+            width: 35%;
+            padding: 14px;
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+            font-size: 16px;
+        }
+        button:hover{
+            background-color: blue;
+        }
+        #bar{
+            padding-top: 9%;
+            padding-bottom: 5%;
+            display: flex;
+            justify-content: space-around;
+        }
+        footer{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: white;
+            display: flex;
+            background-color:#212529 ;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-around;
+        }
+        .fa:hover{
+            color: rgb(213, 212, 212);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h4><a class="b" ref=""><br>Start Bootstrap</a></h4>
+
+        <nav>
+            <a class="a" href="./blog.html">Home</a>
+            <a class="a" href="./blogabout.html">About</a>
+            <a class="a" href="">Contact</a>
+            <a class="a" href="">Pricing</a>
+            <a class="a" href="">Fag</a>
+            <a class="a" href="">Block</a>
+            <a class="a" href="">Portfolio</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img src="mail.png" alt="" style="width: 45px; height: 45px;"> <br><br>
+            <h1 style="font-size: 32px;"><b>Get in Touch</b></h1>
+            <p style="size: 17px; color: #5f5f5f;">We'd love to hear from you</p><br><br>
+    
+            <form id="form" action="information-form">
+                <input class="input" type="text" name="name"  id="name" placeholder="Full Name" required><br><br>
+                <input class="input"  type="email" name="email" id="email" placeholder="Email adress" required><br><br>
+                <input class="input" type="tel" name="number" placeholder="Enter your number"  id="number" required><br><br>
+                <textarea id="textarea" maxlength="500" style="width: 35%; height: 130px; ; border-radius: 5px;">Message</textarea> <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+
+
+
+        <section id="bar">
+            <div>
+                <img src="group.png" alt="" style="width: 40px; height: 40px;">
+                <h1>Chat with us</h1>
+                <p style="color: #5f5f5f;">Chat live with one of our support <br> specialists.</p>
+            </div>
+            <div>
+                <img src="telephone.png" alt="" style="width: 40px; height: 40px;">
+                <h1>Call us</h1>
+                <p style="color: #5f5f5f;">Call us during normal business hours <br>at (555) 892-9403.</p>
+            </div>
+            <div>
+                <img src="linkedin.png" alt="" style="width: 45px; height: 45px;">
+                <h1>Follow us</h1>
+                <p style="color: #5f5f5f;">Enter our Linkedin profile <br>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </section>
+
+
+        <footer>
+            <div>
+                <p style="font-size: 14px;">Copyright © Your Website 2023</p>
+            </div>
+            <div>
+                <nav style="font-size: 14px;">
+                    <a class="fa" href="">Terms</a>
+                    <a class="fa" href="">Privacy</a>
+                    <a class="fa" href="">Contact</a>
+                </nav>
+    
+            </div>
+        </footer>
+
+    </main>
+
+
+    
+</body>
+</html>
